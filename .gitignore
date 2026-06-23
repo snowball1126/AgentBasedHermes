@@ -1,0 +1,67 @@
+node_modules/
+dist/
+.vite/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.credentials
+secrets.*
+*.secret.*
+*.secrets.*
+credentials.*
+*.credentials.*
+token.*
+*.token.*
+password.*
+*.password.*
+.secrets/
+secrets/
+credentials/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Local runtime output
+*.log
+*.jsonl
+npm-debug.log*
+tsconfig.tsbuildinfo
+.playwright-cli/
+output/
+projects/
+obsidian-reports/
+
+# Local databases, sessions, and caches
+*.db
+*.sqlite
+*.sqlite3
+*.session
+*.cookies
+*.cache
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Hermes/Codex local worker artifacts
+codex-final.md
+codex-prompt.md
+codex-run.json
+codex-stderr.log
+codex-stdout.jsonl
+**/branches/**/brief.md
+**/branches/**/result.md
